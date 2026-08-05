@@ -26,14 +26,14 @@ export class Navber extends Component {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className={this.getLinkClass('general')} aria-current={this.props.category === 'general' ? 'page' : undefined} href="#general" onClick={(e) => this.handleCategoryClick(e, 'general')}>Home</a>
+                  <a className={this.getLinkClass('general')} aria-current={this.props.category === 'general' ? 'page' : undefined} href="\home" onClick={(e) => this.handleCategoryClick(e, 'general')}>Home</a>
                 </li>
-                <li className="nav-item"><a className={this.getLinkClass('business')} aria-current={this.props.category === 'business' ? 'page' : undefined} href="#business" onClick={(e) => this.handleCategoryClick(e, 'business')}>business</a></li>
-                <li className="nav-item"><a className={this.getLinkClass('entertainment')} aria-current={this.props.category === 'entertainment' ? 'page' : undefined} href="#entertainment" onClick={(e) => this.handleCategoryClick(e, 'entertainment')}>entertainment</a></li>
-                <li className="nav-item"><a className={this.getLinkClass('health')} aria-current={this.props.category === 'health' ? 'page' : undefined} href="#health" onClick={(e) => this.handleCategoryClick(e, 'health')}>health</a></li>
-                <li className="nav-item"><a className={this.getLinkClass('science')} aria-current={this.props.category === 'science' ? 'page' : undefined} href="#science" onClick={(e) => this.handleCategoryClick(e, 'science')}>science</a></li>
-                <li className="nav-item"><a className={this.getLinkClass('sports')} aria-current={this.props.category === 'sports' ? 'page' : undefined} href="#sports" onClick={(e) => this.handleCategoryClick(e, 'sports')}>sports</a></li>
-                <li className="nav-item"><a className={this.getLinkClass('technology')} aria-current={this.props.category === 'technology' ? 'page' : undefined} href="#technology" onClick={(e) => this.handleCategoryClick(e, 'technology')}>technology</a></li>
+                <li className="nav-item"><a className={this.getLinkClass('business')} aria-current={this.props.category === 'business' ? 'page' : undefined} href="\business" onClick={(e) => this.handleCategoryClick(e, 'business')}>business</a></li>
+                <li className="nav-item"><a className={this.getLinkClass('entertainment')} aria-current={this.props.category === 'entertainment' ? 'page' : undefined} href="\entertainment" onClick={(e) => this.handleCategoryClick(e, 'entertainment')}>entertainment</a></li>
+                <li className="nav-item"><a className={this.getLinkClass('health')} aria-current={this.props.category === 'health' ? 'page' : undefined} href="\health" onClick={(e) => this.handleCategoryClick(e, 'health')}>health</a></li>
+                <li className="nav-item"><a className={this.getLinkClass('science')} aria-current={this.props.category === 'science' ? 'page' : undefined} href="\science" onClick={(e) => this.handleCategoryClick(e, 'science')}>science</a></li>
+                <li className="nav-item"><a className={this.getLinkClass('sports')} aria-current={this.props.category === 'sports' ? 'page' : undefined} href="\sports" onClick={(e) => this.handleCategoryClick(e, 'sports')}>sports</a></li>
+                <li className="nav-item"><a className={this.getLinkClass('technology')} aria-current={this.props.category === 'technology' ? 'page' : undefined} href="\technology" onClick={(e) => this.handleCategoryClick(e, 'technology')}>technology</a></li>
               </ul>
             </div>
           </div>
